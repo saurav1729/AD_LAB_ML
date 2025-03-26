@@ -19,9 +19,9 @@ parser.add_argument('--optim', type=int, default='1',
                     help='0 SGD. 1 Adam')
 parser.add_argument('--eval', type=int, default='1',
                     help='if set the last day as eval')
-parser.add_argument('--max-epoch', type=int, default='400',
+parser.add_argument('--max-epoch', type=int, default='10',
                     help='Training max epoch')
-parser.add_argument('--wait-epoch', type=int, default='30',
+parser.add_argument('--wait-epoch', type=int, default='5',
                     help='Training min epoch')
 parser.add_argument('--eta', type=float, default='1e-4',
                     help='Early stopping')
